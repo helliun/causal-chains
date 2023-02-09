@@ -23,7 +23,7 @@ The class "CausalChain" has the following methods:
 
 3. `find_biggest_chain`: This method finds the longest chain of cause-effect relationships in the text. It starts from an effect and follows the connections stored in the connections dictionary to find other effects that are connected to it. The method continues this process until there are no more connections or the chain reaches a certain length (default is 10). The longest chain found is stored in the biggest_chain attribute.
 
-4. visualize: This method displays a given chain using pydot.
+4. `visualize`: This method displays a given chain using pydot.
 
 ## Example Usage:
 

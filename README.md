@@ -1,6 +1,8 @@
 # Causal Chain Extractor
 This code implements a tool to extract causal chains from text by summarizing the text using the `bart-cause-effect` model from [Hugging Face Transformers](https://huggingface.co/taskload/bart-cause-effect) and then linking the causes and effects with cosine similarity calculated using the `Sentence Transformer` model.
 
+![image](https://github.com/helliun/causal-chains/blob/main/pydotcause.png)
+
 ## Requirements
 - torch
 - transformers

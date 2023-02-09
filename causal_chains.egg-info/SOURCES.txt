@@ -1,5 +1,8 @@
+LICENCE
 README.md
 setup.py
+causal_chains/__intit__.py
+causal_chains/chainer.py
 causal_chains.egg-info/PKG-INFO
 causal_chains.egg-info/SOURCES.txt
 causal_chains.egg-info/dependency_links.txt

@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: causal-chains
-Version: 1.0.1
-Summary: A package for extracting causal relationships
+Version: 1.0.12
+Summary: A package for extracting causal chains from text
 Home-page: https://github.com/helliun/causal-chains
 Author: Henry Leonardi
 Author-email: leonardi.henry@gmail.com
@@ -9,6 +9,7 @@ Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
+License-File: LICENCE
 
 # Causal Chain Extractor
 This code implements a tool to extract causal chains from text by summarizing the text using the `bart-cause-effect` model from [Hugging Face Transformers](https://huggingface.co/taskload/bart-cause-effect) and then linking the causes and effects with cosine similarity calculated using the `Sentence Transformer` model.

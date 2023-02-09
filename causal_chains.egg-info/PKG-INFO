@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
 Name: causal-chains
-Version: 1.0.0
-Summary: A package for targeted summarization
+Version: 1.0.1
+Summary: A package for extracting causal relationships
 Home-page: https://github.com/helliun/causal-chains
 Author: Henry Leonardi
 Author-email: leonardi.henry@gmail.com

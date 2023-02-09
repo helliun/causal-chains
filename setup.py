@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="causal_chains",
-    version="1.0.0",
+    version="1.0.1",
     author="Henry Leonardi",
     author_email="leonardi.henry@gmail.com",
-    description="A package for targeted summarization",
+    description="A package for extracting causal relationships",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/helliun/causal-chains",

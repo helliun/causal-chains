@@ -35,7 +35,7 @@ import wikipedia
 
 text = wikipedia.page("ChristopherColumbus").content
 chunks util.create_chunks(text)
-cc = CausalChain(chunks)
+cc = CausalChain(chunks,device=0)
 cc.create_connections()
 biggest_chain = cc.biggest_chain
 cc.visualize(biggest_chain)

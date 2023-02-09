@@ -39,5 +39,5 @@ biggest_chain = cc.biggest_chain
 cc.visualize(biggest_chain)
 ```
 
-![gif](Untitled_presentation_-_Google_Slides_-_Brave_2023-01-24_20-01-37_AdobeExpress.gif)
+![image](https://github.com/helliun/causal-chains/blob/main/pydotcause.png)
 

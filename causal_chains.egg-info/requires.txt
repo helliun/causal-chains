@@ -1,0 +1,6 @@
+transformers
+sentence-transformers
+pydot
+tqdm
+torch
+ipython

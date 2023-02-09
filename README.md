@@ -4,7 +4,7 @@ This code implements a tool to extract causal chains from text by summarizing th
 ![image](https://github.com/helliun/causal-chains/blob/main/pydotcause.png)
 
 ## Installation
-`pip install causal-chains`
+Library can be installed with `pip install causal-chains`
 
 ## Usage
 1. Initialize a `CausalChain` object with a list of chunks of text as input.

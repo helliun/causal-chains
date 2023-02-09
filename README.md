@@ -26,7 +26,7 @@ The class "CausalChain" has the following methods:
 ## Example Usage:
 
 ```python
-from causal_chain_extractor import CausalChain, util
+from causal_chains.CausalChain import CausalChain, util
 import wikipedia 
 
 text = wikipedia.page("ChristopherColumbus").content
@@ -38,4 +38,4 @@ cc.visualize(biggest_chain)
 ```
 The display that this code produces is shown at the top of this page.
 
-[Google Colab Demo](https://colab.research.google.com/drive/1TmZIjGNotM2Stg2jpkkdAWWge95HKdDJ?usp=sharing)
+[Google Colab Demo](https://colab.research.google.com/drive/15jePDNKEf_5EXbwyAF8v3eGIMozG4hBF?usp=sharing)

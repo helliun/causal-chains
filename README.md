@@ -14,12 +14,12 @@ This code implements a tool to extract causal chains from text by summarizing th
 3. Run the `create_connections` method to link the events based on cosine similarity of their embeddings.
 
 ```python
-from causal_chain_extractor import CausalChain
+from causal_chain_extractor import CausalChain, util
+import wikipedia 
 
-text = "A car crashed into a wall. The driver was injured. The airbags deployed."
-
+text = wikipedia.page("ChristopherColumbus").content
 chunks util.create_chunks(text)
 cc = CausalChain(chunks)
 cc.create_connections()
-biggest_chain = causal_chain.biggest_chain
-causal_chain.visualize(biggest_chain)
+biggest_chain = cc.biggest_chain
+cc.visualize(biggest_chain)

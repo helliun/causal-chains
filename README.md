@@ -30,7 +30,7 @@ from causal_chain_extractor import CausalChain, util
 import wikipedia 
 
 text = wikipedia.page("ChristopherColumbus").content
-chunks util.create_chunks(text)
+chunks = util.create_chunks(text)
 cc = CausalChain(chunks,device=0)
 cc.create_connections()
 biggest_chain = cc.biggest_chain

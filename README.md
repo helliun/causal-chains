@@ -38,4 +38,7 @@ chunks util.create_chunks(text)
 cc = CausalChain(chunks)
 cc.create_connections()
 biggest_chain = cc.biggest_chain
-cc.visualize(biggest_chain)
+cc.visualize(biggest_chain)```
+
+![gif](Untitled_presentation_-_Google_Slides_-_Brave_2023-01-24_20-01-37_AdobeExpress.gif)
+

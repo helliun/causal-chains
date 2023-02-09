@@ -40,6 +40,4 @@ cc.create_connections()
 biggest_chain = cc.biggest_chain
 cc.visualize(biggest_chain)
 ```
-The display looks like this:
-![image](https://github.com/helliun/causal-chains/blob/main/pydotcause.png)
-
+The display that this code produces is shown at the top of this page.

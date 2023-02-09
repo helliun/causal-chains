@@ -38,4 +38,6 @@ cc.visualize(biggest_chain)
 ```
 The display that this code produces is shown at the top of this page.
 
+## Colab Demo
+
 [Google Colab Demo](https://colab.research.google.com/drive/15jePDNKEf_5EXbwyAF8v3eGIMozG4hBF?usp=sharing)

@@ -10,8 +10,8 @@ This code implements a tool to extract causal chains from text by summarizing th
 
 ## Usage
 1. Initialize a `CausalChain` object with a list of chunks of text as input.
-2. Run the `create_effects` method to get the cause and effect pairs from the text.
-3. Run the `create_connections` method to link the events based on cosine similarity of their embeddings.
+2. Run the `create_effects` method to get the cause and effect pairs from the text and then link the events based on cosine similarity of their embeddings.
+3. Run the `visualize` method to see the largest chain.
 
 ```python
 from causal_chain_extractor import CausalChain, util

@@ -3,12 +3,8 @@ This code implements a tool to extract causal chains from text by summarizing th
 
 ![image](https://github.com/helliun/causal-chains/blob/main/pydotcause.png)
 
-## Requirements
-- torch
-- transformers
-- sentence-transformers
-- tqdm
-- pydot
+## Installation
+`pip install causal-chains`
 
 ## Usage
 1. Initialize a `CausalChain` object with a list of chunks of text as input.
